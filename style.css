@@ -301,3 +301,184 @@
   height: 420px;
   background: var(--primary-color);
  }
+
+
+/* Work */
+
+
+.bg-white .container {
+  position: inherit;
+}
+
+.shape {
+  position: absolute;
+  z-index: 0;
+}
+
+.containerr {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.padding-v-lg {
+  padding: 120px 15px;
+}
+
+.padding-md {
+  padding: 60px 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.showcase {
+  padding: 120px 0;
+}
+.showcase .description {
+  padding: 30px 50px;
+}
+.showcase .description .technologies {
+  padding: 10px 0;
+  margin-top: 10px;
+  border-top: 1px dashed #003342;
+}
+.showcase .description .technologies span {
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  background: #00C1F7;
+  margin: 4px 2px;
+}
+
+.flex {
+  display: flex;
+}
+
+.col-2 {
+  flex: 2;
+  margin: 0 15px;
+}
+
+.browser {
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px -5px #003342;
+  -moz-box-shadow: 0px 0px 20px -5px #003342;
+  box-shadow: 0px 0px 20px -5px #003342;
+  border-bottom: 10px solid #314C54;
+}
+.browser .browser-header {
+  background: #003342;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+}
+.browser .browser-header i {
+  border-radius: 10px;
+  margin: 0 3px;
+  width: 10px;
+  height: 10px;
+}
+.browser .browser-header i:nth-child(1) {
+  background-color: red;
+}
+.browser .browser-header i:nth-child(2) {
+  background-color: yellow;
+}
+.browser .browser-header i:nth-child(3) {
+  background-color: green;
+}
+.browser .browser-header i:nth-child(4) {
+  flex: 1;
+  background-color: white;
+}
+.browser .browser-body {
+  height: auto;
+  border-right: 2px solid #003342;
+  border-left: 2px solid #003342;
+}
+.browser .browser-body img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.d-block {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: background 0.2s;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 7px 20px;
+  border-radius: 4px;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #003342;
+}
+.btn-dark:hover {
+  background-color: #005a75;
+}
+
+.description {
+  padding: 30px 50px;
+}
+
+.technologies {
+  padding: 10px 0;
+  margin-top: 10px;
+  border-top: 1px dashed #003342;
+}
+
+.separator {
+  display: table;
+  margin: 0 auto;
+}
+.separator i {
+  background-color: #e6e6e6;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.col-2 {
+  flex: 2;
+  margin: 0 15px;
+}
+
+.col-3 {
+  flex: 3;
+  margin: 0 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+  .work {
+    display: none;
+  }
+ }
