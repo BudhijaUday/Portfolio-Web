@@ -30,3 +30,16 @@
     display: none;
    }
 
+@media screen and (max-width: 900px) {
+
+    .head-2 {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+    .head-2 .mob-name {
+        font-size: 3rem;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 14px;
+    }
+   }
