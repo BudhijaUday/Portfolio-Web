@@ -1,0 +1,81 @@
+.info-card {
+    font-family:'Raleway', sans-serif;
+    color: var(--neutral-info-clr-100);
+    display: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .info-card {
+        display: grid;
+        place-content: center;
+        text-align: center;
+    }
+    .card {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 2rem 20rem 2rem;
+    }
+    .welcome {
+        background: var(--gradient-1);
+        color: var(--neutral-info-clr-100);
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+        border-radius: 1.3rem;
+
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-template-columns: subgrid;
+    }
+    .welcome .nest {
+        grid-column: 2 / 3;
+        padding-block: 1rem;
+    }
+    .web-dev {
+        background: white;
+        grid-column: 2 / 3;
+        padding: 2rem 4rem 4rem;
+        grid-row: 2 / 4;
+        border-radius: .7rem;
+        box-shadow: 0 0 1rem black;
+
+        display: grid;
+        gap: 2rem;
+    }
+    .grad {
+        color: var(--gradient);
+    }
+    .web-dev img {
+        border-radius: 50%;
+        max-width: 6rem;
+    }
+
+    .pic > * {
+        margin: 0;
+    }
+    .web-dev > * {
+        margin: 0;
+    }
+    .info-h {
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: black;
+    }
+    .resume-btn {
+        padding: 1rem;
+        background: var(--gradient-1);
+        border: 0;
+        border-radius: .25rem;
+        font-size: 1.01rem;
+        cursor: pointer;
+        font-family:'Raleway', sans-serif;
+        background-size: 100%;
+        transition: background-size 200ms , scale 200ms;
+    }
+    .resume-btn:hover ,
+    .resume-btn:focus {
+        background-size: 200%;
+        scale: 1.05;
+    }
+}
