@@ -92,7 +92,6 @@
    }
 
   /* END: head media querie */
-
 .skills-content {
     display: none;
 }
@@ -134,7 +133,7 @@
         text-align: center;
       }
       .inner {
-          animation: scroll 5s ease-in-out infinite;
+          animation: scroll 9s ease-in-out infinite;
       }
       .element {
         font-size: 1.1em;
@@ -142,23 +141,36 @@
       }
       
       @keyframes scroll {
-        0%, 20% {
+        0%, 5% {
               transform: translateY(0);
           }
-          25%,45% {
+          10%,15% {
               transform: translateY(-32px);
           }
-          50%,70% {
+          20%,25% {
               transform: translateY(-64px);
           }
-          75%,95% {
+          30%,35% {
               transform: translateY(-96px);
           }
-          100% {
+          40%,45% {
               transform: translateY(-124px);
           }
+          50%,55% {
+            transform: translateY(-156px);
+        }
+        60%,65% {
+            transform: translateY(-188px);
+        }
+        70%,75% {
+            transform: translateY(-220px);
+        }
+        80%,85% {
+            transform: translateY(-252px);
+        }
       }
    }
+
 
   
 
